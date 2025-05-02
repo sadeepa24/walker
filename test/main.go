@@ -1,14 +1,14 @@
 package main
 
 type Teststruct struct {
-	FieldsAny any
-	PointerField **DummyStruct
-	StringField string
-	SliceField []string
+	FieldsAny          any
+	PointerField       **DummyStruct
+	StringField        string
+	SliceField         []string
 	SliceFieldAdvanced []DummyStruct
-	PointerSlice []*DummyStruct
-	WrdPointerSlice []any
-	Dumm AnotherDumm
+	PointerSlice       []*DummyStruct
+	WrdPointerSlice    []any
+	Dumm               AnotherDumm
 }
 
 type AnotherDumm struct {
@@ -16,16 +16,13 @@ type AnotherDumm struct {
 }
 
 type DummyStruct struct {
-	TestVal string
+	TestVal   string
 	SecondVal string
 }
 
 func main() {
 }
 
-
 func waltest() {
-	
+
 }
-
-
